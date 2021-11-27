@@ -1,0 +1,37 @@
+.BudgetSummary {
+  width: 70vw;
+  min-height: 80vh;
+  margin: 8rem auto 0;
+  box-sizing: border-box;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  backdrop-filter: blur(4px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.BudgetSummary h1 {
+  color: rgba(242, 237, 215, 0.5);
+  text-transform: uppercase;
+  font-family: "Amatic SC", cursive;
+}
+
+.BudgetSummary li {
+  display: block;
+  list-style: none;
+  width: 80%;
+  margin: 1rem auto;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 720px) {
+  .BudgetSummary {
+    margin: 12rem auto 0;
+    min-height: 70vh;
+  }
+}

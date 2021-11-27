@@ -1,0 +1,21 @@
+.IncSummary {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Inc {
+  display: inline-block;
+}
+
+.Inc h3 {
+  color: #f2edd7;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 720px) {
+  .Inc h3 {
+    font-size: 1.2rem;
+  }
+}

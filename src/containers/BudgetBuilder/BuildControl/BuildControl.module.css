@@ -1,0 +1,67 @@
+.BuildControl {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(4.5rem);
+}
+
+.IncExp {
+  position: relative;
+  width: 250px;
+  height: 160px;
+  margin-bottom: 0.6rem;
+}
+
+.IncExp h2 {
+  color: #555450;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.Button {
+  background: #f2edd7;
+  color: #212020;
+  border-radius: 20px;
+  height: 2rem;
+  width: 10rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: inline-block;
+  border: none;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Button:focus,
+.Button:active {
+  outline: none;
+  border: none;
+}
+
+@media (min-width: 720px) {
+  .BuildControl {
+    position: relative;
+    transform: translateY(4rem);
+  }
+
+  .IncExp {
+    width: 350px;
+    height: 240px;
+  }
+
+  .IncExp h2 {
+    font-size: 1.4rem;
+  }
+
+  .Button {
+    height: 2.7rem;
+    font-size: 1.1rem;
+    width: 14rem;
+  }
+}

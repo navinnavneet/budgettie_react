@@ -1,0 +1,99 @@
+.Budget {
+  width: 80%;
+  margin: 0 auto 1rem;
+  background: inherit;
+  transform: translateY(2rem);
+}
+
+.IncExp {
+  width: 250px;
+  height: 1.8rem;
+  margin: 1rem auto;
+}
+
+.BudgetHeading h1 {
+  margin: 0.5rem auto 1.3rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.7rem;
+  color: #f2edd7;
+}
+
+.Month {
+  color: #f2edd7;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.6rem;
+  margin-top: 3.5rem;
+}
+
+.Budget p {
+  font-size: 0.9rem;
+  color: #f2edd7;
+  text-transform: uppercase;
+  display: inline-block;
+  padding-top: 3px;
+}
+
+.Floater {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  padding: 0 0.8rem;
+}
+
+.Perc {
+  height: 1.2rem;
+  width: 2.2rem;
+  transform: translateY(2px);
+}
+
+.Perc p {
+  font-size: 0.75rem;
+  transform: translateY(-5px);
+}
+
+@media (min-width: 720px) {
+  .Budget {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .IncExp {
+    width: 60%;
+    height: 2.5rem;
+    margin: 1.5rem auto;
+  }
+
+  .BudgetHeading {
+    margin: 1rem auto 2.5rem;
+  }
+
+  .Budget h1 {
+    font-size: 2rem;
+  }
+
+  .Budget p {
+    font-size: 1.4rem;
+  }
+  .Month {
+    margin-top: 6rem;
+  }
+
+  .Floater {
+    padding: 0 2rem;
+  }
+
+  .Perc {
+    height: 1.8rem;
+    width: 2.5rem;
+    margin-top: -0.1rem;
+    margin-left: -3rem;
+  }
+
+  .Perc p {
+    font-size: 1rem;
+    transform: translateY(0);
+  }
+}

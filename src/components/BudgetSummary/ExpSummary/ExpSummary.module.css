@@ -1,0 +1,41 @@
+.ExpSummary {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Exp {
+  display: inline-block;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.Exp h3 {
+  color: #f2edd7;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.Card {
+  margin-left: 5px;
+  display: inline-block;
+  width: 2.5rem;
+}
+
+.Exp p {
+  color: #f2edd7;
+  letter-spacing: 0.1rem;
+}
+@media (min-width: 720px) {
+  .Exp h3 {
+    font-size: 1.2rem;
+  }
+
+  .Card {
+    margin-left: 10px;
+    display: inline-block;
+    width: 2.5rem;
+    height: 1.2rem;
+    margin-top: 4px;
+  }
+}
